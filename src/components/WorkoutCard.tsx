@@ -58,7 +58,7 @@ export default function WorkoutCard({ workout }: WorkoutCardProps) {
             <span className="w-4 h-4 rounded-full border border-neutral-700 flex items-center justify-center text-[8px]">
               ☆
             </span>
-            {workout.rating}
+             {workout.rating}
            </span>
         </div>
       </div>
