@@ -59,7 +59,7 @@ export default function WorkoutCard({ workout }: WorkoutCardProps) {
               ☆
             </span>
             {workout.rating}
-          </span>
+           </span>
         </div>
       </div>
     </Link>
