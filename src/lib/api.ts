@@ -53,7 +53,7 @@ export async function getAllWorkouts(): Promise<Workout[]> {
 
     return list.map(normalize);
   } catch (err) {
-    console.error("API failed:", err);
+    console.error("API failed:", err); 
     return [];
   }
 }
