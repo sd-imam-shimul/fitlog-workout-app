@@ -1,6 +1,6 @@
 "use client";
 
-import {
+import  {
   createContext,
   useContext,
   useEffect,
@@ -10,7 +10,7 @@ import {
 } from "react";
 import type { PlanWorkout,  ToastState, Workout } from "@/types/workout";
 
-interface PlanContextValue {
+interface PlanContextValue  {
   plan: PlanWorkout[];
   saved: Workout[];
   toast: ToastState | null;
