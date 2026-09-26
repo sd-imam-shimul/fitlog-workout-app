@@ -8,7 +8,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import type { PlanWorkout, ToastState, Workout } from "@/types/workout";
+import type { PlanWorkout,  ToastState, Workout } from "@/types/workout";
 
 interface PlanContextValue {
   plan: PlanWorkout[];
